@@ -62,13 +62,13 @@
           try { expenses = JSON.parse(saved); } catch(e) { expenses = []; }
         } else {
           expenses = [
-            { id:1, description:'Grocery store', amount:-48.75, category:'food', createdAt:new Date().toISOString() },
-            { id:2, description:'Gas station', amount:-32.00, category:'transport', createdAt:new Date().toISOString() },
-            { id:3, description:'Netflix', amount:-15.99, category:'entertainment', createdAt:new Date().toISOString() },
-            { id:4, description:'Salary', amount:1250.00, category:'income', createdAt:new Date().toISOString() },
-            { id:5, description:'New sneakers', amount:-89.00, category:'shopping', createdAt:new Date().toISOString() },
-            { id:6, description:'Freelance payment', amount:320.00, category:'income', createdAt:new Date().toISOString() },
-            { id:7, description:'Electric bill', amount:-75.40, category:'bills', createdAt:new Date().toISOString() },
+            // { id:1, description:'Grocery store', amount:-48.75, category:'food', createdAt:new Date().toISOString() },
+            // { id:2, description:'Gas station', amount:-32.00, category:'transport', createdAt:new Date().toISOString() },
+            // { id:3, description:'Netflix', amount:-15.99, category:'entertainment', createdAt:new Date().toISOString() },
+            // { id:4, description:'Salary', amount:1250.00, category:'income', createdAt:new Date().toISOString() },
+            // { id:5, description:'New sneakers', amount:-89.00, category:'shopping', createdAt:new Date().toISOString() },
+            // { id:6, description:'Freelance payment', amount:320.00, category:'income', createdAt:new Date().toISOString() },
+            // { id:7, description:'Electric bill', amount:-75.40, category:'bills', createdAt:new Date().toISOString() },
           ];
         }
       }
